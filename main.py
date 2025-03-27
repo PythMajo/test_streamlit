@@ -4,7 +4,10 @@ import pandas as pd
 import plotly.express as px
 
 st.title('Coffee Database')
-DATA_URL = ('https://raw.githubusercontent.com/jldbc/coffee-quality-database/refs/heads/master/data/arabica_data_cleaned.csv')
+#DATA_URL = ('https://raw.githubusercontent.com/jldbc/coffee-quality-database/refs/heads/master/data/arabica_data_cleaned.csv')
+
+DATA_URL = 'data.csv'
+
 
 @st.cache_data
 def load_data(nrows):
